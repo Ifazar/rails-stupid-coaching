@@ -1,0 +1,12 @@
+<h1>Stupid Coaching</h1>
+
+<form action="/answer" data-turbo="false">
+  <div class="col-auto p-2">
+      <label>Ask something to coach</label>
+      <input class="form-control"
+      type="text" name="answer" value="<%= params[:answer]%>">
+  </div>
+
+  <input class="btn btn-primary p-2"
+  type="submit" value="Ask!">
+</form>
